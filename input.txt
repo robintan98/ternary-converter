@@ -1,0 +1,10 @@
+if bool_1 // this is a comment
+	action_1
+else
+	if bool_2 && bool_3
+		action_2
+	else
+		if (bool_4 || bool_5) && bool_6 // this is another comment
+			action_3
+		else
+			action_4

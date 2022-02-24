@@ -1,0 +1,11 @@
+(bool_1) ? // this is a comment
+  action_1 :
+    (
+      (bool_2 && bool_3) ?
+        action_2 :
+          (
+            ((bool_4 || bool_5) && bool_6) ? // this is another comment
+              action_3 :
+                action_4
+          )
+    )
